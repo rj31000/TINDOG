@@ -1,0 +1,143 @@
+/* title section */
+#title{
+  background-color: #33FFBD;
+  color: white;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+
+}
+.navbar{
+  margin-bottom: 4rem;
+}
+.first{
+  line-height: 1.5;
+  margin-top: 50px;
+  font-size: 3rem;
+}
+.download-button{
+  margin-bottom: 0 10% 10% 10%;
+}
+.apple{
+  color: white;
+}
+.title-image{
+  width: 50%;
+  position: relative;
+  left:2rem;
+margin-top: 10px;
+transform: rotate(30deg);
+}
+
+/* features section */
+#features{
+  background-color: #fff;
+  padding: 7% 15%;
+}
+.features-box{
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.feature-heading{
+  font-family: Roboto Mono;
+}
+.feature-details{
+  color: grey;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.feature-icon{
+  color: #33FFBD;
+  margin-bottom: 1rem;
+}
+.feature-icon:hover{
+  color:#339CFF;
+}
+
+
+
+/* testinomials */
+#testimonials{
+
+  text-align:center;
+  background-color:#33FFBD ;
+  color: #fff;
+}
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+}
+.testimonial-text{
+  padding:7% 15%;
+  font-size: 3rem;
+}
+
+
+
+/* press */
+#press{
+  background-color:#33FFBD ;
+  padding-bottom: 4%;
+  text-align: center;
+  padding-top: 10%;
+}
+.press-image{
+
+  width: 15%;
+}
+
+
+
+/* pricing */
+
+
+#pricing{
+  text-align: center;
+  padding-top:3%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.pricing-heading{
+  color:#33FFBD;
+  font-weight: bold;
+}
+.card-heading{
+  color:#33FFBD;
+}
+@media (max-width: 1100px) {
+  #title{
+    text-align:center;
+  }
+  .title-image{
+    transform: rotate(0);
+  }
+}
+
+
+
+/* cta */
+
+
+#cta{
+  background-color: #33FFBD;
+  padding: 7% 15%;
+  text-align: center;
+}
+.last-line{
+  font-weight: bold;
+  color:#fff;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+/* footer */
+
+
+#footer{
+  text-align: center;
+}
